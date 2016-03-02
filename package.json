@@ -1,0 +1,15 @@
+{
+  "name": "clean-firebase-db",
+  "version": "1.0.0",
+  "description": "firebase clean",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-debug -p 8800 -d 5959 index.js"
+  },
+  "author": "sebastian correa",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^2.4.1",
+    "moment": "^2.11.2"
+  }
+}
