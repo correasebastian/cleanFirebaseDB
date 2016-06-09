@@ -1,7 +1,7 @@
 var Firebase = require('firebase');
 var moment = require('moment');
 // valos a restar en segundos
-var fourDays = 100000; //350000; //4 dias en segundos
+var fourDays = 160000; //350000; //4 dias en segundos
 var currentTimeStamp = moment().unix(); //en segundos
 
 var beforeFourdays = (currentTimeStamp - fourDays) * 1000; //4 dias atras en milisegundos;
